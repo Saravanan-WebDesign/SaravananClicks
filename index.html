@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Saravanan Protfolio WebSite</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="images/fc8f90f_1648065005166_sc.jpeg" class="logo" alt="">
+                <ul id="sideMenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#main-section">About</a></li>
+                    <li><a href="#protfolio">Projects</a></li>
+                    <li><a href="#contect">Contect</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="barOpen()"></i>
+
+            </nav>
+
+            <div class="mainsections">
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span class="spantext">Saravanan</span> <br>from Cuddlore</h1>
+                </div>
+
+                <div class="images-title">
+                    <img src="images/WhatsApp Image 2024-02-15 at 10.02.14_69060c11.jpg" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </header>
+
+
+<!------------------------- About Section ----------------------------->
+    <main id="main-section">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/WhatsApp Image 2024-07-30 at 22.50.58_f49fea22.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="rrevice-bottom-reponsec">Hi there! I'm Saravanan, an enthusiastic and driven aspiring software developer with a strong foundation in web development, I recently graduated from MRK Colloge of atrs and science, and also i did a course in besant technologies from chennai anna nagar ,where I developed a passion for creating innovative solutions through code.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('collage')">Collage</p>
+                        <p class="tab-links"  onclick="opentab('Certifications')">Certifications</p>
+                     </div>
+                     <div class="tab-contents active-tabss" id="skills">
+                        <ul>
+                            <li><span>FullStack developer</span><br>And Full Stack developer</li>
+                            <li><span>React Js</span><br>Web/apps</li>
+                            <li><span>HTML 5</span></li>
+                            <li><span>CSS 3</span></li>
+                            <li><span>Javascript (Es6)</span></li>
+                            <li><span>React Js</span></li>
+                            <li><span>Mongo DBS</span></li>
+                            <li><span>Java </span><br>(OPPS , filehandling , exceptions)</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="collage">
+                        <ul>
+                            <li><span> BSC computer science</span><br>MRK collage of Arts and Science</li>
+                            <li>2020 - 2023 </li>
+                        </ul>
+                     </div>
+                     
+                     <div class="tab-contents" id="Certifications">
+                        <ul>
+                            <li><span>Full stack development</span><br>Besant technologies from chennai</li>
+                        </ul>
+                     </div>
+                     
+                </div>
+            </div>
+        </div>
+    </main>
+
+<!-- ----------------------------------Protfolio------------------------------- -->
+    <section id="protfolio">
+
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+
+            <div class="work-lits">
+                <div class="works">
+                    <img src="images/projectsImages/Screenshot 2024-07-31 130526.png" alt="">
+                    <div class="layer">
+                        <h3>Mens Store The "Men's Store Website Project" aims to create a dynamic and user-friendly e-commerce platform </h3>
+                        <a href="https://saravanan-webdesign.github.io/Mens-Store/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="works">
+                    <img src="images/projectsImages/Screenshot 2024-07-31 130607.png" alt="">
+
+                    <div class="layer"><h3>Weather WebSite   The "Weather App Project" is designed to provide users with accurate </h3>
+                    <a href="https://saravanan-webdesign.github.io/Wheather-App/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="works">
+                    <img src="images/projectsImages/Screenshot 2024-07-31 130632.png" alt="">
+                   
+                    <div class="layer"><h3>music player website  By leveraging reliable weather data sources and integrating advance</h3>
+                        <a href="https://saravanan-webdesign.github.io/musicApp/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="works">
+                    <img src="images/projectsImages/Screenshot 2024-08-05 232211.png" alt="">
+                   
+                    <div class="layer"><h3>Live time show website leveraging reliable weather data sources and integrating advance</h3>
+                        <a href="https://github.com/Saravanan-WebDesign?tab=repositories"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            
+                <a href="https://github.com/Saravanan-WebDesign?tab=repositories" class="btn">See More</a>
+        
+        </div>
+
+    </section>
+
+
+<!-- --------------------contect section------------------ -->
+    <section id="contect">
+        <div class="container">
+            <div class="row">
+                <div class="contect-left">
+                    <h1 class="subtitle">Contect Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> saravanan2003cs@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9150179985</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Saravanan-WebDesign?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/saravanan0866?igsh=MXQydG5pczR6c2hwZQ%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100036172814504"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/T.Saravanan.pdf" download class="btn btn2">My Resume</a>
+                </div>
+                <div class="contect-right">
+                    <form action="">
+                        <input type="text" title="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" title="Email" placeholder="Your Email" required>
+                        <textarea name="Message" id="myTextArea" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <main class="copyrgiht">
+            <p>Copyright Thanking For see Portfolio website</p>
+        </main>
+    </section>
+    <script>
+
+
+
+
+        let tablinks = document.getElementsByClassName("tab-links");
+        let tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname){
+
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tabss");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tabss")
+        }
+
+
+        
+    </script>
+    <script>
+
+
+
+
+
+        var sideMenu = document.getElementById("sideMenu");
+
+
+        function barOpen(){
+            sideMenu.style.right = "0";
+        }
+
+        function closeMenu(){
+            sideMenu.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>
