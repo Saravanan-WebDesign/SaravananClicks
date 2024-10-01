@@ -86,7 +86,7 @@ nav ul li a:hover::after{
 }
 
 .mainsections .images-title img{
-    width: 440px;
+    width: 300px;
     border-radius: 20px;
 }
 
@@ -348,7 +348,7 @@ nav .fas{
 
 #header{
 
-    background-image: url(images/WhatsApp\ Image\ 2024-02-15\ at\ 10.02.14_69060c11.jpg);
+    background-image: url(images/WhatsApp\ Image\ 2024-09-27\ at\ 18.10.20_3e5bd18d.jpg);
     background-repeat:no-repeat ;
     background-size: cover;
     width: 100%;
@@ -384,6 +384,12 @@ nav .fas{
         margin-right: 0px;
     }
 
+    .image-section-about-section{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
     .about-col-1 img{
         width: 200px;
     }

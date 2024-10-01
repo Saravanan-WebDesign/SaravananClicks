@@ -25,12 +25,12 @@
 
             <div class="mainsections">
                 <div class="header-text">
-                    <p>Full Stack Developer</p>
-                <h1>Hi, I'm <span class="spantext">Saravanan</span> <br>from Cuddlore</h1>
+                    <p>MERN stack developer</p>
+                <h1>Hi, I'm <span class="spantext">SARAVANAN</span> <br>from Sethiyathope</h1>
                 </div>
 
                 <div class="images-title">
-                    <img src="images/WhatsApp Image 2024-02-15 at 10.02.14_69060c11.jpg" alt="">
+                    <img src="images/WhatsApp Image 2024-09-27 at 18.10.20_3e5bd18d.jpg" alt="">
                 </div>
                 
             </div>
@@ -41,17 +41,18 @@
 <!------------------------- About Section ----------------------------->
     <main id="main-section">
         <div class="container">
-            <div class="row">
+            <div class="row image-section-about-section">
                 <div class="about-col-1">
-                    <img src="images/WhatsApp Image 2024-07-30 at 22.50.58_f49fea22.jpg" alt="">
+                <div>
+                    <img src="images/WhatsApp Image 2024-09-29 at 19.39.57_7adadfa3.jpg" alt="">
+                </div>
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle">About Me</h1>
                     <p class="rrevice-bottom-reponsec">Hi there! I'm Saravanan, an enthusiastic and driven aspiring software developer with a strong foundation in web development, I recently graduated from MRK Colloge of atrs and science, and also i did a course in besant technologies from chennai anna nagar ,where I developed a passion for creating innovative solutions through code.</p>
                     <div class="tab-title">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links"  onclick="opentab('collage')">Collage</p>
-                        <p class="tab-links"  onclick="opentab('Certifications')">Certifications</p>
+                       
                      </div>
                      <div class="tab-contents active-tabss" id="skills">
                         <ul>
@@ -62,7 +63,7 @@
                             <li><span>Javascript (Es6)</span></li>
                             <li><span>React Js</span></li>
                             <li><span>Mongo DBS</span></li>
-                            <li><span>Java </span><br>(OPPS , filehandling , exceptions)</li>
+                            
                         </ul>
                      </div>
 
@@ -150,42 +151,16 @@
                         <input type="text" title="text" name="Name" placeholder="Your Name" required>
                         <input type="text" title="Email" placeholder="Your Email" required>
                         <textarea name="Message" id="myTextArea" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
+                        <button type="submit" class="btn btn2" onclick="SubmitFunction()">Submit</button>
                     </form>
 
                 </div>
             </div>
         </div>
         <main class="copyrgiht">
-            <p>Copyright Thanking For see Portfolio website</p>
+            <p>Copyright Thanking For seen my Portfolio website</p>
         </main>
     </section>
-    <script>
-
-
-
-
-        let tablinks = document.getElementsByClassName("tab-links");
-        let tabcontents = document.getElementsByClassName("tab-contents");
-
-
-        function opentab(tabname){
-
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tabss");
-            }
-
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tabss")
-        }
-
-
-        
-    </script>
     <script>
 
 
@@ -202,6 +177,12 @@
         function closeMenu(){
             sideMenu.style.right = "-200px"
         }
+
+
+        function SubmitFunction(){
+            alert("Your Message Send")
+        }
+
 
     </script>
     
